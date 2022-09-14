@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Введите имя:"
+        android:layout_margin="8dp" />
+
+    <EditText
+        android:id="@+id/etSecondName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Введите фамилию:"
+        android:layout_margin="8dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Введите Email:"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Отправить"
+        android:backgroundTint="@color/teal_200"/>
+
+</LinearLayout>
